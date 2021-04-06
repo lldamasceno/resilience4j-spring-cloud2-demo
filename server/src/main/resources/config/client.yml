@@ -28,7 +28,7 @@ resilience4j.retry:
 resilience4j.bulkhead:
   configs:
     default:
-      maxConcurrentCalls: 100
+      maxConcurrentCalls: 10
 
 resilience4j.thread-pool-bulkhead:
   configs:
